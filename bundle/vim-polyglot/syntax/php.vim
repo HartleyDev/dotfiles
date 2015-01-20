@@ -562,8 +562,8 @@ if !exists("did_php_syn_inits")
   hi def link phpDefine           PreProc
   hi def link phpKeyword          Keyword
   hi def link phpSuperglobals     Type
-  hi def link phpType             Type
-  hi def link phpParent           Special
+  hi def link phpType             Statement
+  hi def link phpParent           Function
   hi def link phpSpecialChar      SpecialChar
   hi def link phpStrEsc           SpecialChar
   hi def link phpParentError      Error

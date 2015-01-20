@@ -220,6 +220,7 @@ if &t_Co > 255
    hi jsStorageClass  ctermfg=81
    hi javascriptExport ctermfg=81
    hi jsObjectKey     ctermfg=229
+   hi phpRegion       ctermfg=154
    hi cssBoxProp      ctermfg=81
    hi cssFontProp     ctermfg=81
    hi cssClassName    ctermfg=154
