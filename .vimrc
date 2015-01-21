@@ -218,7 +218,8 @@ if has("autocmd") && exists("+omnifunc")
           \     setlocal omnifunc=syntaxcomplete#Complete |
           \   endif
 endif
-
+" Use jshint for systastic
+let g:syntastic_javascript_checkers = ['jshint']
 " }}}
 
 " Mappings {{{i
