@@ -1,5 +1,6 @@
 let mapleader = " "
 set t_Co=256
+set mouse=a
 " Settings {{{i
 " Switch syntax highlighting on, when the terminal has colors
 syntax on

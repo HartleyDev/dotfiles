@@ -1,7 +1,10 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='scp://sjc-dev-usrv163/hg/CouponsCom/'
 let g:netrw_dirhist_2='scp://sjc-dev-usrv163/hg/CouponsCom/webapp/'
 let g:netrw_dirhist_3='scp://sjc-dev-usrv163/hg/CouponsCom/webapp/zend/'
 let g:netrw_dirhist_4='scp://sjc-dev-usrv163/hg/CouponsCom/webapp/zend/application/'
 let g:netrw_dirhist_5='scp://sjc-dev-usrv163/hg/CouponsCom/webapp/zend/application/controllers/'
+let g:netrw_dirhist_6='scp://sjc-dev-usrv163/'
+let g:netrw_dirhist_7='/Users/shartley/hg/RIQ_Java/coupons-nextgen/coupons-nextgen-presentation-microsite/src/main/webapp/templates/landingpage templates'
+let g:netrw_dirhist_8='scp://sjc-dev-usrv163/'
