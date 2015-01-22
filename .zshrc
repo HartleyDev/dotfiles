@@ -46,7 +46,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-# plugins=(git)
+plugins=(vi-mode)
 
 # User configuration
 
@@ -81,12 +81,15 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias tree="tree -C"
-alias zend="vim scp://sjc-dev-usrv163/"
 alias vm="ssh sjc-dev-usrv163"
+# mount vm
+alias mvm="sshfs -C -p 22 shartley@sjc-dev-usrv163:/home/shartley/ ~/myVM -oauto_cache,reconnect,defer_permissions,noappledouble"
+alias umvm="umount ~/myVM"
 # Flush DNS
 alias dnsflush="sudo killall -HUP mDNSResponder"
 alias cdn="sudo mount -t nfs nas02bsc5us.sc5.coupons.lan:/vol/ImageCache/Production/ /private/nfs"
 alias wcdn="sudo mount -o rw -t nfs nas02bsc5us.sc5.coupons.lan:/vol/ImageCache/Production/ /private/nfs"
+
 #ProVim-----------------------------------------------------------------------------------------#
 
 # Exports {{{
