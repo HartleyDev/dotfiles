@@ -220,6 +220,10 @@ if has("autocmd") && exists("+omnifunc")
 endif
 " Use jshint for systastic
 let g:syntastic_javascript_checkers = ['jshint']
+
+" DelimitMate
+let delimitMate_expand_cr = 1
+let delimitMate_expand_space = 1
 " }}}
 
 " Mappings {{{i

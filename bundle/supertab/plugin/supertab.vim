@@ -108,7 +108,7 @@ set cpo&vim
     let g:SuperTabMappingForward = '<tab>'
   endif
   if !exists("g:SuperTabMappingBackward")
-    let g:SuperTabMappingBackward = '<s-tab>'
+    let g:SuperTabMappingBackward = '<c-\>' " conflicts with delimitmate
   endif
 
   if !exists("g:SuperTabMappingTabLiteral")
